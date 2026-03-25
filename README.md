@@ -1,5 +1,7 @@
 # Evolution Constraint Planner
 
+English | [简体中文](README.zh-CN.md)
+
 `evolution-constraint-planner` is a Codex-first skill and toolkit for turning a raw request into a constrained delivery loop:
 
 1. `pre` interrogates the request until meaning is frozen enough to approve.
@@ -113,6 +115,7 @@ If your environment cannot launch real subagents, ECL can still be studied, but 
 - [docs/subagents.md](docs/subagents.md): exactly where real subagents are required and what they return
 - [docs/implementation.md](docs/implementation.md): CLI flow, bundle compilation, templates, schema, and OpenSpec output
 - [examples/README.md](examples/README.md): how to read the sample workspace
+- [README.zh-CN.md](README.zh-CN.md): Chinese repository guide
 
 ## Example Workspace
 
