@@ -2,6 +2,21 @@
 
 [English](README.md) | 简体中文
 
+<div align="center">
+
+**先冻结产品含义，再把交付压进一个有约束的 plan-code-achieve 闭环。**
+
+![Codex First](https://img.shields.io/badge/Codex-First-412991?style=flat-square)
+![Constraint Planning](https://img.shields.io/badge/Planning-Constraint_Driven-0F766E?style=flat-square)
+![CLI Toolkit](https://img.shields.io/badge/CLI-Toolkit-1D4ED8?style=flat-square)
+![Plan Code Achieve](https://img.shields.io/badge/Workflow-Plan_Code_Achieve-7C3AED?style=flat-square)
+
+原始需求 -> 冻结含义 -> code-ready handoff -> run evidence -> achieve verdict
+
+[赞助支持](#support)
+
+</div>
+
 `evolution-constraint-planner` 是一套以 Codex 为核心的 Skill 与工具链，用来把一条原始需求压成一个有约束的交付闭环：
 
 1. `pre` 负责追问和整理，直到需求语义足够冻结，可以进入审批门。
@@ -10,6 +25,12 @@
 4. `achieve` 负责判断结果是否真的满足验收，以及这个 case 是否可以归档关闭。
 
 它的核心原则很简单：规划负责冻结含义，编码负责忠实执行，闭环负责证明结果是否可接受。只要编码阶段还需要补产品语义，说明规划失败了。
+
+## <a id="support"></a>赞助支持
+
+如果 ECL 对你的 Codex 工作流有帮助，欢迎通过 GitHub Sponsors 支持后续维护：
+
+- GitHub Sponsors: https://github.com/sponsors/Etherstrings
 
 ## 这个仓库包含什么
 

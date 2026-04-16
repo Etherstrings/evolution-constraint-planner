@@ -2,6 +2,21 @@
 
 English | [简体中文](README.zh-CN.md)
 
+<div align="center">
+
+**Freeze product meaning before coding starts, then drive delivery through a constrained plan-code-achieve loop.**
+
+![Codex First](https://img.shields.io/badge/Codex-First-412991?style=flat-square)
+![Constraint Planning](https://img.shields.io/badge/Planning-Constraint_Driven-0F766E?style=flat-square)
+![CLI Toolkit](https://img.shields.io/badge/CLI-Toolkit-1D4ED8?style=flat-square)
+![Plan Code Achieve](https://img.shields.io/badge/Workflow-Plan_Code_Achieve-7C3AED?style=flat-square)
+
+Raw request -> frozen meaning -> code-ready handoff -> run evidence -> achieve verdict
+
+[Codex Installation](#codex-installation) · [CLI Quick Start](#cli-quick-start) · [Support](#support)
+
+</div>
+
 `evolution-constraint-planner` is a Codex-first skill and toolkit for turning a raw request into a constrained delivery loop:
 
 1. `pre` interrogates the request until meaning is frozen enough to approve.
@@ -10,6 +25,12 @@ English | [简体中文](README.zh-CN.md)
 4. `achieve` decides whether the result actually met acceptance and whether the case can be archived.
 
 The core idea is simple: planning owns meaning, coding owns execution, and closure owns acceptance. If the coding model still has to invent product semantics, planning failed.
+
+## <a id="support"></a>Support
+
+If ECL helps your Codex workflow, you can support ongoing maintenance via GitHub Sponsors:
+
+- GitHub Sponsors: https://github.com/sponsors/Etherstrings
 
 ## What This Repository Contains
 
